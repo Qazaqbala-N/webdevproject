@@ -1,0 +1,56 @@
+<div class="header-container">
+    <div class="box">
+        <img [routerLink]="['']" class="logo" src="../../../assets/images/logo_second.png" width="100">
+        
+        <div class="right-side">
+            <div class="car-bodies">
+                <p [routerLink]="['/cars', 'sedan']" >SEDANS</p>
+                <p [routerLink]="['/cars', 'suv']">SUVS</p>
+                <p [routerLink]="['/cars', 'coupe']">COUPES</p>
+                <p [routerLink]="['/cars', 'hybrid']">HYBRIDS</p>
+                <p [routerLink]="['/cars', 'performance']">PERFORMANCE</p>
+                <p [routerLink]="['/future']">FUTURE</p>
+            </div>
+    
+            <div class="credits">
+                <p [routerLink]="['/owners']">Owners</p>
+                <p [routerLink]="['/l-certified']">L/Certified</p>
+                <p [routerLink]="['/dealers']">Find A Dealer</p>
+                <img src="../../../assets/images/search.png" (click)="search()" width="30" height="30">
+            </div>
+        </div>
+
+        <div class="menu-button">
+            <h2>MENU</h2>
+            <div class="burger" (click)="slide()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="search-box">
+        <img src="../../../assets/images/search.png" width="30" height="30">
+
+        <input type="text" class="search-input" placeholder="SEARCH">
+
+        <img src="../../../assets/images/cancel.png" (click)="search()" width="30" height="30">
+    </div>
+
+    <div class="mobile">
+        <div class="mobile-search" (click)="search()">
+            <img src="../../../assets/images/search-white.png" width="25" height="25" style="margin: 0px">
+            <p style="font-size:25px">SEARCH</p>
+        </div>
+        <p [routerLink]="['/cars', 'sedan']">SEDANS</p>
+        <p [routerLink]="['/cars', 'suv']">SUVS</p>
+        <p [routerLink]="['/cars', 'coupe']">COUPES</p>
+        <p [routerLink]="['/cars', 'hybrid']">HYBRIDS</p>
+        <p [routerLink]="['/cars', 'performance']">PERFORMANCE</p>
+        <p [routerLink]="['/future']">FUTURE</p>
+        <p [routerLink]="['/owners']">Owners</p>
+        <p [routerLink]="['/l-certified']">L/Certified</p>
+        <p [routerLink]="['/dealers']">Find A Dealer</p>
+    </div>
+</div>

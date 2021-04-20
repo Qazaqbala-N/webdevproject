@@ -1,0 +1,73 @@
+<div @tr class="main-page-container">
+    <div class="main-assets">
+        <img src="../../../assets/images/mainpagephoto.jpg">
+
+        <!-- <video @tr *ngIf="!switch" (click)="switch=!switch;" autoplay preload loop width="100%">
+            <source src="../../../assets/videos/IS_Hero.mp4" type="video/mp4">
+        </video> -->
+        
+        <p class="exp">EXPERIENCE THE LEXUS</p>
+        <p class="perf">PERFOMANCE AT THE PEAK OF LUXURY</p>
+        <button class="expl-btn" [routerLink]="['/dive-into-lexus']">DIVE INTO LEXUS</button>
+    </div>
+
+    <div class="shopping-tools">
+        <p class="st-logo">SHOPPING TOOLS</p>
+        <div class="st-imgs">
+            <p class="st-item" [routerLink]="['/build-your-lexus']"><img style="padding-bottom: 9px;" src="../../../assets/images/shoppingcar1.jpg"> BUILD YOUR LEXUS</p>
+            <p class="st-item" [routerLink]="['/dealers']"><img src="../../../assets/images/shoppinglogo.jpg"> FIND A DEALER</p>
+            <p class="st-item"><img src="../../../assets/images/shoppingcar2.jpg"> OFFERS</p>
+        </div>
+    </div>
+
+    <div class="vehicles-offers">
+        <p class="st-logo centered">VEHICLES AND CURRENT OFFERS</p>
+
+        <div class="vo-assets">
+            <div class="triple-nx vo-design">
+                <img src="../../../assets/images/NX-triple.jpg" width="390" height="240">
+                <p class="vo-title">CURRENT OFFERS</p>
+                <p class="vo-subtitle">FIND LEASE, FINANCE AND CASH OFFERS IN YOUR AREA</p>
+                <button>SEE OFFERS</button>
+            </div>
+    
+            <div class="is-f vo-design">
+                <img src="../../../assets/images/IS500.jpg" width="390" height="240">
+                <p class="vo-title">IS 500</p>
+                <p class="vo-subtitle">A NEW BREED OF PERFORMANCE</p>
+                <button>EXPLORE</button>
+            </div>
+    
+            <div class="ls-lux vo-design">
+                <img src="../../../assets/images/LS500.jpg" width="390" height="240">
+                <p class="vo-title">EXPERIENCE THE LEXUS LS HYBRID</p>
+                <p class="vo-subtitle">PERFORMANCE AT THE PEAK OF LUXURY</p>
+                <button>EXPLORE</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="discover-lex">
+        <p class="st-logo centered">DISCOVER LEXUS</p>
+
+        <div class="d-assets">
+            <div class="d-ls d-design">
+                <img src="../../../assets/images/LS500-WHITE.jpg" width="435" height="435">
+                <p>WHAT IF YOU COULD WATCH YOUR EMOTIONS TRANSFORM?</p>
+                <button>DISCOVER MORE</button>
+            </div>
+
+            <div class="d-ux d-design">
+                <img src="../../../assets/images/UX-BACK.jpg" width="435" height="435">
+                <p>LEXUS SAFETY: PREPARED TO PROTECT</p>
+                <button>LEARN MORE</button>
+            </div>
+
+            <div class="d-nx d-design">
+                <img src="../../../assets/images/NX-WHITE.jpg" width="435" height="435">
+                <p>L/CERTIFIED BY LEXUS</p>
+                <button>LEARN MORE</button>
+            </div>
+        </div>
+    </div>
+</div>
