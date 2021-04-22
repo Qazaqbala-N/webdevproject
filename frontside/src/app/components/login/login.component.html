@@ -1,0 +1,17 @@
+<div @tr class="login-container">
+    <div *ngIf="!logged" class="login">
+        <p class="logo">LOGIN</p>
+
+        <input type="text" [(ngModel)]="username" placeholder="USERNAME">
+
+        <input type="password" [(ngModel)]="password" placeholder="PASSWORD">
+
+        <button (click)="login()">LOGIN</button>
+    </div>
+
+    <div *ngIf="logged" class="logout">
+        <p class="logo">WISH TO LOGOUT?</p>
+
+        <button (click)="logout()">LOGOUT</button>
+    </div>
+</div>

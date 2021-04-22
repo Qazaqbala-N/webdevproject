@@ -1,0 +1,64 @@
+* {
+    letter-spacing: 1px;
+}
+
+.login-container, .login, .logout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-size: larger;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.login-container {
+    margin-bottom: 40px;
+}
+
+.login, .logout {
+    width: 300px;
+    margin: 30px;
+    padding: 20px;
+    color: #fff;
+    background-color: #0d1117;
+    border-radius: 7px;
+}
+
+p {
+    text-align: center;
+    margin: 0 10px 10px 10px;
+}
+
+input {
+    padding-left: 10px;
+    color: #fff;
+}
+
+input, button {
+    outline: none;
+    width: 100%;
+    height: 35px;
+    margin: 5px;
+    border-radius: 7px;
+    border: none;
+    background-color: #131820;
+}
+
+button, input::placeholder {
+    font-family: 'Calibri';
+    color: #fff;
+}
+
+button {
+    cursor: pointer;
+    background-color: #185524;
+    transition: .1s;
+}
+
+button:hover {
+    filter: brightness(88%);
+}

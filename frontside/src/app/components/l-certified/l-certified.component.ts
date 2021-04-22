@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {slowOnset} from '../../animations';
-
+import { slowOnset } from 'src/app/animations';
 
 @Component({
   selector: 'app-l-certified',
@@ -18,6 +17,6 @@ export class LCertifiedComponent implements OnInit {
   }
 
   share(){
-    window.open(`https://t.me/share/url?url=www.lexus.com&text=Welcome to one of the Biggest auto company`);
+    window.open(`https://t.me/share/url?url=www.lexus.com&text=Welcome+to+one+of+the+Biggest+auto+company`);
   }
 }
